@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    min-height: 700px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+
+.calculator{
+    width: 900px;
+    height: 700px;
+    border: 1px solid #ccc;
+    padding: 15px;
+     background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+mt-5{
+    max-width: 500px;
+}
+
+.tab{
+    width: 450px;
+    border-bottom: 2px solid #ccc;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+.tab label {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tab label:hover {
+    border: 2px solid #67b7dc;
+}
+
+.tab input[type="radio"] {
+    display: none;
+}
+
+.tab input[type="radio"]:checked + label {
+    background-color: #fff;
+    border-bottom: 3px solid #67b7dc;
+}
+
+.form-group{
+    justify-content: space-between;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-1{
+    display: flex;
+    align-items: center;    
+}
+.input-2{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-top: 10px;
+}
+.sip {
+    width: 450px;
+    padding-left: 15px;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #67b7dc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sip .header h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.sip-body form {
+    display: grid;
+}
+
+/* --------------------lumpsum------------------------------- */
+.form{
+    width: 450px;
+    padding-left: 15px;
+}
+
+.lumpsum {
+    width: 450px;
+    padding-left: 15px;
+}    
+
+.lumpsum-body .header h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.lumpsum-body form {
+    display: grid;
+
+}
+
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    margin: 10px 0;
+    background-color: #67b7dc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #67b7dc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* --------------------------------sip pie chart-------------- */
+.chart1 {
+    width: auto;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------------------------summary------------------- */
+
+
+
+.summary {
+    background-color: #f7f7f7;
+    width: 450px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+
+.summary h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.summary h5 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+    /* border-bottom: 0.09px solid #d4d2d2; */
+
+}
+
+.summary span {
+    font-weight: bold;
+    color: #67b7dc;
+    font-family: monospace; 
+    font-size: 17px; 
+}
+
+
+/* -------------------3d chart-------- */
+
+#chartdiv {
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+

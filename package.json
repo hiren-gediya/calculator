@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "chart.js": "^4.4.1",
+    "slim.js": "^1.3.0"
+  }
+}
