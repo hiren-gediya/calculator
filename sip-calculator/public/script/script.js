@@ -378,12 +378,6 @@ $(document).ready(function () {
         calculateMonthWiseLumpSum(); // or calculateYearWiseLumpSum();
     }
 });
-
-
-  
-
-
-
 });
 
 
